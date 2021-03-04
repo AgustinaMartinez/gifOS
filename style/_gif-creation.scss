@@ -1,0 +1,73 @@
+.light{
+    .nav{
+        @extend %nav;
+
+        .nav-container{
+            .logo-dark{
+                display: none;
+            }
+        }
+    }
+    
+    .main-window{
+        height: 386px;
+        width: 684px;
+        background: #E6E6E6;
+        box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+        position: absolute;
+        top: 198px;
+        left: 378px;
+    
+        .little-bar{
+            @extend %little-bar;
+            width: 678px;
+        }
+    
+        .background{
+            position: relative;
+            height: 362px;
+            width: 684px;
+    
+            .info-title{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 20px;
+                color: #110038;
+                font-family: $font;
+                font-size: 16px;
+    
+                .img-info{
+                    padding: 0px 10px;
+                }
+            }
+    
+            .text{
+                font-family: $font;
+                font-size: 14px;
+                margin-left: 70px;
+            }
+    
+            .two-buttons{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                position: absolute;
+                bottom: 100px;
+                width: 35vw;
+                height: 50px;
+    
+                .button-cancelar{
+                    @extend %button-ab;
+                    right: -10px;
+                }
+    
+                .button-comenzar{
+                    @extend %button-ab;
+                    background-color: #FFF4FD;
+                    right: -170px;
+                }
+            }
+        }
+    }
+}

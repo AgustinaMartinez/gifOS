@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.8/RecordRTC.js" type="text/javascript"></script>
+    <title>gifOS</title>
+</head>
+<body class="light">
+    <header class="bar">
+        <p>¡Bienvenidos/as a Guifos.com! ------Donde los gifs están.////// Número de visitas: 12.785.803</p>
+    </header>
+    <section class="nav">
+        <div class="nav-container">
+            <a href="gif-creation.html"><img class="arrow" src="./assets/arrow.svg" alt="left arrow" /></a>
+            <img src="./assets/logo-light.png" alt="logo" class="logo"/>
+        </div>
+    </section>
+    <section class="window">
+        <div class="little-bar"><p class="little-bar-title">Un Chequeo Antes de Empezar</p><img src="./Assets/button3.svg" alt="cruz" class="cruz"></div>
+        <div class="background-window">
+            <video src="" id="video-container" class="video-recording" autoplay></video>
+            <img src="" alt="" id="video-container2" class="video-recording2">
+            <div class="white-background"><img src="./assets/globe_img.png" alt="globe image"><p class="p1">Estamos subiendo tu guifo...</p><p class="p2">Tiempo restante: 3̶8̶ ̶a̶ñ̶o̶s̶ algunos minutos</p></div>
+            <div class="pink-buttons">
+                <button class="camera-button"><img src="./assets/camera.svg" alt="camera button"></button>
+                <button class="capture-button" id="pinkButtons">Capturar</button>
+            </div>
+            <div class="red-buttons">
+                <button class="recording-button"><img src="./assets/recording.svg" alt="recording button"></button>
+                <button class="stop-button" id="redButtons">Listo</button>
+            </div>
+            <div class="other-buttons">
+                <button class="repeat-button">Repetir Captura</button>
+                <button class="upload-button">Subir Guifo</button>
+                <a href="gif-creation.html"><button class="cancel-button">Cancelar</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="gif-uploaded">
+        <div class="little-bar"><p class="little-bar-title">Guifo Subido Con Éxito</p><img src="./Assets/button3.svg" alt="cruz" class="cruz"></div>
+        <div class="background">
+            <div class="idk">
+                <label for="">Guifo creado con éxito</label>
+                <button class="copyURL">Copiar Enlace Guifo</button>
+                <button class="download">Descargar Guifo</button>
+            </div>
+            <img src="" id="little-gif"></img>
+            <a href="gif-upload.html"><button class="ready">Listo</button></a>
+        </div>
+    </section>
+    <section class="Guifos">
+        <div class="mis-Guifos">
+            <p>Mis Guifos</p>
+        </div>
+        <div id="guifos-container"></div>
+    </section>
+    <script src="./javascript/api-functions.js"></script>
+    <script src="./javascript/gif-upload-events.js"></script>
+    <script src="./javascript/camera-functions.js"></script>
+    <script src="./javascript/recordered-gifs-functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,825 @@
+.light .main .navbar .buttons .a, .light .main .navbar .buttons .b, .dark .main .navbar .buttons .a, .dark .main .navbar .buttons .b, .light .main-window .background .two-buttons .button-cancelar, .light .main-window .background .two-buttons .button-comenzar, .dark .main-window .background .two-buttons .button-cancelar, .dark .main-window .background .two-buttons .button-comenzar, .window .background-window .pink-buttons .camera-button, .window .background-window .pink-buttons .capture-button, .window .background-window .red-buttons .recording-button, .window .background-window .red-buttons .stop-button, .window .background-window .other-buttons .repeat-button, .window .background-window .other-buttons .upload-button, .window .background-window .other-buttons .cancel-button, .gif-uploaded .background .ready {
+  position: absolute;
+  top: 78px;
+  height: 36px;
+  width: 144px;
+  opacity: 100%;
+  color: #110038;
+  font-family: 'Chakra Petch', sans-serif;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+  .light .main .navbar .buttons .a:hover, .light .main .navbar .buttons .b:hover, .dark .main .navbar .buttons .a:hover, .dark .main .navbar .buttons .b:hover, .light .main-window .background .two-buttons .button-cancelar:hover, .light .main-window .background .two-buttons .button-comenzar:hover, .dark .main-window .background .two-buttons .button-cancelar:hover, .dark .main-window .background .two-buttons .button-comenzar:hover, .window .background-window .pink-buttons .camera-button:hover, .window .background-window .pink-buttons .capture-button:hover, .window .background-window .red-buttons .recording-button:hover, .window .background-window .red-buttons .stop-button:hover, .window .background-window .other-buttons .repeat-button:hover, .window .background-window .other-buttons .upload-button:hover, .window .background-window .other-buttons .cancel-button:hover, .gif-uploaded .background .ready:hover {
+    cursor: pointer;
+    background: #e6bbe2;
+    border-style: dotted;
+    border-width: 1px; }
+
+.light .main .navbar .buttons .c, .dark .main .navbar .buttons .c {
+  position: absolute;
+  top: 78px;
+  left: 1171px;
+  height: 36px;
+  width: 36px;
+  background-color: #F7C9F3;
+  opacity: 100%;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+  .light .main .navbar .buttons .c:hover, .dark .main .navbar .buttons .c:hover {
+    cursor: pointer;
+    background: #e6bbe2;
+    border-style: dotted;
+    border-width: 1px; }
+
+.light .main .navbar .logo, .dark .main .navbar .logo-dark {
+  position: absolute;
+  top: 60px;
+  left: 91px;
+  height: 64px;
+  width: 102.6px; }
+
+.light .bar, .dark .bar {
+  height: 23px;
+  max-width: 1438px;
+  padding: 0px 7px;
+  background: #4180f6;
+  background: linear-gradient(90deg, #4180f6 0%, #f7c9f3 100%);
+  border: 1px solid black;
+  display: flex;
+  align-items: center; }
+  .light .bar p, .dark .bar p {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 12px;
+    color: white; }
+
+.light .main .one .searcher .little-bar, .light .main .two .gifs .gif1 .little-bar, .light .main .two .gifs .gif2 .little-bar, .light .main .two .gifs .gif3 .little-bar, .light .main .two .gifs .gif4 .little-bar, .dark .main .one .searcher .little-bar, .dark .main .two .gifs .gif1 .little-bar, .dark .main .two .gifs .gif2 .little-bar, .dark .main .two .gifs .gif3 .little-bar, .dark .main .two .gifs .gif4 .little-bar, .light .main-window .little-bar, .dark .main-window .little-bar, .window .little-bar, .gif-uploaded .little-bar {
+  height: 24px;
+  margin-left: 4px;
+  margin-top: 3px;
+  background: #4180f6;
+  background: linear-gradient(90deg, #4180f6 0%, #f7c9f3 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .light .main .one .searcher .little-bar p, .light .main .two .gifs .gif1 .little-bar p, .light .main .two .gifs .gif2 .little-bar p, .light .main .two .gifs .gif3 .little-bar p, .light .main .two .gifs .gif4 .little-bar p, .dark .main .one .searcher .little-bar p, .dark .main .two .gifs .gif1 .little-bar p, .dark .main .two .gifs .gif2 .little-bar p, .dark .main .two .gifs .gif3 .little-bar p, .dark .main .two .gifs .gif4 .little-bar p, .light .main-window .little-bar p, .dark .main-window .little-bar p, .window .little-bar p, .gif-uploaded .little-bar p {
+    font-family: "Chakra Petch", sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    letter-spacing: 0; }
+  .light .main .one .searcher .little-bar .close, .light .main .two .gifs .gif1 .little-bar .close, .light .main .two .gifs .gif2 .little-bar .close, .light .main .two .gifs .gif3 .little-bar .close, .light .main .two .gifs .gif4 .little-bar .close, .dark .main .one .searcher .little-bar .close, .dark .main .two .gifs .gif1 .little-bar .close, .dark .main .two .gifs .gif2 .little-bar .close, .dark .main .two .gifs .gif3 .little-bar .close, .dark .main .two .gifs .gif4 .little-bar .close, .light .main-window .little-bar .close, .dark .main-window .little-bar .close, .window .little-bar .close, .gif-uploaded .little-bar .close {
+    margin-top: 0px; }
+
+.nav .nav-container {
+  margin: 50px 0px 0px 100px; }
+  .nav .nav-container .arrow {
+    margin-bottom: 10px;
+    margin-right: 15px; }
+
+.light .main .two .suggestion, .light .main .three .trendings, .dark .main .two .suggestion, .dark .main .three .trendings, .Guifos .mis-Guifos {
+  position: relative;
+  top: 200px;
+  left: 100px;
+  height: 32px;
+  width: 1200px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+  .light .main .two .suggestion p, .light .main .three .trendings p, .dark .main .two .suggestion p, .dark .main .three .trendings p, .Guifos .mis-Guifos p {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 14px;
+    color: #110038;
+    padding: 10px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.light .main .navbar .logo-dark {
+  display: none; }
+.light .main .navbar .buttons .a {
+  left: 879px; }
+.light .main .navbar .buttons .b {
+  left: 1039px; }
+.light .main .navbar .buttons .c .theme {
+  background-color: #E6E6E6;
+  height: 102px;
+  width: 170px;
+  position: relative;
+  top: 20px;
+  left: -135px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  z-index: 100;
+  display: none; }
+  .light .main .navbar .buttons .c .theme .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .light .main .navbar .buttons .c .theme .dropdown-menu .day, .light .main .navbar .buttons .c .theme .dropdown-menu .night {
+      font-family: "Chakra Petch", sans-serif;
+      text-decoration: none;
+      list-style-type: none;
+      color: #110038;
+      font-size: 16px;
+      height: 36px;
+      width: 150px;
+      background-color: #F0F0F0;
+      background: #F0F0F0;
+      border: 1px solid #808080;
+      box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+      margin-top: 8px; }
+      .light .main .navbar .buttons .c .theme .dropdown-menu .day:hover, .light .main .navbar .buttons .c .theme .dropdown-menu .night:hover {
+        background-color: #2E32FB;
+        color: #FFFFFF; }
+.light .main .navbar .buttons .misGuifos {
+  font-family: "Chakra Petch", sans-serif;
+  text-decoration: none;
+  color: #110038;
+  position: absolute;
+  top: 87px;
+  left: 1223.5px; }
+  .light .main .navbar .buttons .misGuifos:hover {
+    border-style: dotted;
+    border-width: 1px; }
+  .light .main .navbar .buttons .misGuifos:active {
+    opacity: 0.2; }
+  .light .main .navbar .buttons .misGuifos span {
+    border-bottom: 1px solid #110038; }
+.light .main .one .searcher {
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  height: 99px;
+  width: 1200px;
+  background-color: #E6E6E6;
+  box-shadow: 2px 2px 1px #B4B4B4;
+  z-index: 50; }
+  .light .main .one .searcher .text {
+    position: relative;
+    top: 10px;
+    left: 10px; }
+    .light .main .one .searcher .text .search {
+      font-family: "Chakra Petch", sans-serif;
+      color: #B4B4B4;
+      height: 48px;
+      width: 1057px;
+      padding-left: 10px;
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+      .light .main .one .searcher .text .search:focus {
+        color: black; }
+      .light .main .one .searcher .text .search:focus ~ .suggestSearch {
+        visibility: visible; }
+    .light .main .one .searcher .text .search-button {
+      position: relative;
+      top: 0px;
+      left: 5px;
+      height: 36px;
+      width: 102px;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 16px;
+      color: #B4B4B4;
+      z-index: 10;
+      background: #E6E6E6;
+      border: 1px solid #808080;
+      box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; }
+      .light .main .one .searcher .text .search-button:hover {
+        cursor: pointer;
+        color: #110038;
+        background-color: #F7C9F3; }
+      .light .main .one .searcher .text .search-button:active {
+        border-style: dotted;
+        border-width: 1px; }
+    .light .main .one .searcher .text .suggestSearch {
+      width: 1202px;
+      height: 160px;
+      margin-top: 14px;
+      margin-left: -10px;
+      background: #E6E6E6;
+      box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      visibility: hidden; }
+      .light .main .one .searcher .text .suggestSearch .suggestion1, .light .main .one .searcher .text .suggestSearch .suggestion2, .light .main .one .searcher .text .suggestSearch .suggestion3 {
+        height: 36px;
+        width: 1057px;
+        background: #F0F0F0;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+        margin-top: 12px;
+        margin-left: 15px;
+        text-decoration: none; }
+        .light .main .one .searcher .text .suggestSearch .suggestion1 p, .light .main .one .searcher .text .suggestSearch .suggestion2 p, .light .main .one .searcher .text .suggestSearch .suggestion3 p {
+          color: #110038;
+          font-family: "Chakra Petch", sans-serif;
+          margin-left: 10px;
+          margin-top: 5px; }
+        .light .main .one .searcher .text .suggestSearch .suggestion1:hover, .light .main .one .searcher .text .suggestSearch .suggestion2:hover, .light .main .one .searcher .text .suggestSearch .suggestion3:hover {
+          border-style: dotted;
+          border-width: 1px;
+          cursor: pointer;
+          background: #808080; }
+    .light .main .one .searcher .text .hashtags {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      top: -150px;
+      margin-left: -20px;
+      visibility: hidden; }
+      .light .main .one .searcher .text .hashtags .hashtag1, .light .main .one .searcher .text .hashtags .hashtag2, .light .main .one .searcher .text .hashtags .hashtag3 {
+        height: 34px;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+        margin-left: 10px; }
+        .light .main .one .searcher .text .hashtags .hashtag1 p, .light .main .one .searcher .text .hashtags .hashtag2 p, .light .main .one .searcher .text .hashtags .hashtag3 p {
+          margin-left: 6px;
+          margin-top: 6px;
+          color: #FFFFFF;
+          font-family: "Chakra Petch", sans-serif;
+          font-size: 14px; }
+      .light .main .one .searcher .text .hashtags .hashtag1 {
+        width: 100px; }
+      .light .main .one .searcher .text .hashtags .hashtag2 {
+        width: 154px; }
+      .light .main .one .searcher .text .hashtags .hashtag3 {
+        width: 140px; }
+.light .main .two .suggestion {
+  top: 302px; }
+.light .main .two .gifs {
+  position: relative;
+  top: 350px;
+  left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 140px;
+  margin-left: 20px;
+  margin-bottom: 10px; }
+  .light .main .two .gifs .gif1, .light .main .two .gifs .gif2, .light .main .two .gifs .gif3, .light .main .two .gifs .gif4 {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    height: 313px;
+    width: 288px;
+    position: relative; }
+    .light .main .two .gifs .gif1 .little-bar, .light .main .two .gifs .gif2 .little-bar, .light .main .two .gifs .gif3 .little-bar, .light .main .two .gifs .gif4 .little-bar {
+      width: 280px; }
+      .light .main .two .gifs .gif1 .little-bar .close, .light .main .two .gifs .gif2 .little-bar .close, .light .main .two .gifs .gif3 .little-bar .close, .light .main .two .gifs .gif4 .little-bar .close {
+        margin-right: 5px; }
+    .light .main .two .gifs .gif1 #hereisthegif1, .light .main .two .gifs .gif1 #hereisthegif2, .light .main .two .gifs .gif1 #hereisthegif3, .light .main .two .gifs .gif1 #hereisthegif4, .light .main .two .gifs .gif2 #hereisthegif1, .light .main .two .gifs .gif2 #hereisthegif2, .light .main .two .gifs .gif2 #hereisthegif3, .light .main .two .gifs .gif2 #hereisthegif4, .light .main .two .gifs .gif3 #hereisthegif1, .light .main .two .gifs .gif3 #hereisthegif2, .light .main .two .gifs .gif3 #hereisthegif3, .light .main .two .gifs .gif3 #hereisthegif4, .light .main .two .gifs .gif4 #hereisthegif1, .light .main .two .gifs .gif4 #hereisthegif2, .light .main .two .gifs .gif4 #hereisthegif3, .light .main .two .gifs .gif4 #hereisthegif4 {
+      height: 280px;
+      width: 280px;
+      position: absolute;
+      top: 30px;
+      left: 5px;
+      z-index: 50; }
+      .light .main .two .gifs .gif1 #hereisthegif1:hover, .light .main .two .gifs .gif1 #hereisthegif2:hover, .light .main .two .gifs .gif1 #hereisthegif3:hover, .light .main .two .gifs .gif1 #hereisthegif4:hover, .light .main .two .gifs .gif2 #hereisthegif1:hover, .light .main .two .gifs .gif2 #hereisthegif2:hover, .light .main .two .gifs .gif2 #hereisthegif3:hover, .light .main .two .gifs .gif2 #hereisthegif4:hover, .light .main .two .gifs .gif3 #hereisthegif1:hover, .light .main .two .gifs .gif3 #hereisthegif2:hover, .light .main .two .gifs .gif3 #hereisthegif3:hover, .light .main .two .gifs .gif3 #hereisthegif4:hover, .light .main .two .gifs .gif4 #hereisthegif1:hover, .light .main .two .gifs .gif4 #hereisthegif2:hover, .light .main .two .gifs .gif4 #hereisthegif3:hover, .light .main .two .gifs .gif4 #hereisthegif4:hover {
+        border-style: dotted;
+        border-width: 1px; }
+    .light .main .two .gifs .gif1 .watch-more1, .light .main .two .gifs .gif1 .watch-more2, .light .main .two .gifs .gif1 .watch-more3, .light .main .two .gifs .gif1 .watch-more4, .light .main .two .gifs .gif2 .watch-more1, .light .main .two .gifs .gif2 .watch-more2, .light .main .two .gifs .gif2 .watch-more3, .light .main .two .gifs .gif2 .watch-more4, .light .main .two .gifs .gif3 .watch-more1, .light .main .two .gifs .gif3 .watch-more2, .light .main .two .gifs .gif3 .watch-more3, .light .main .two .gifs .gif3 .watch-more4, .light .main .two .gifs .gif4 .watch-more1, .light .main .two .gifs .gif4 .watch-more2, .light .main .two .gifs .gif4 .watch-more3, .light .main .two .gifs .gif4 .watch-more4 {
+      position: absolute;
+      width: 81px;
+      height: 34px;
+      font-family: 'Chakra Petch', sans-serif;
+      color: #FFFFFF;
+      background: #4180F6;
+      border: 1px solid #4C2F99;
+      box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+      margin-left: 15px;
+      margin-top: 235px;
+      z-index: 1000; }
+      .light .main .two .gifs .gif1 .watch-more1:hover, .light .main .two .gifs .gif1 .watch-more2:hover, .light .main .two .gifs .gif1 .watch-more3:hover, .light .main .two .gifs .gif1 .watch-more4:hover, .light .main .two .gifs .gif2 .watch-more1:hover, .light .main .two .gifs .gif2 .watch-more2:hover, .light .main .two .gifs .gif2 .watch-more3:hover, .light .main .two .gifs .gif2 .watch-more4:hover, .light .main .two .gifs .gif3 .watch-more1:hover, .light .main .two .gifs .gif3 .watch-more2:hover, .light .main .two .gifs .gif3 .watch-more3:hover, .light .main .two .gifs .gif3 .watch-more4:hover, .light .main .two .gifs .gif4 .watch-more1:hover, .light .main .two .gifs .gif4 .watch-more2:hover, .light .main .two .gifs .gif4 .watch-more3:hover, .light .main .two .gifs .gif4 .watch-more4:hover {
+        cursor: pointer; }
+.light .main .three {
+  position: relative; }
+  .light .main .three .trendings {
+    top: 400px; }
+  .light .main .three #trending-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 450px;
+    margin-left: 92px; }
+    .light .main .three #trending-container figure {
+      position: relative;
+      z-index: 100; }
+      .light .main .three #trending-container figure img:hover {
+        border-style: dotted;
+        border-width: 1px; }
+      .light .main .three #trending-container figure img:hover ~ figcaption {
+        position: absolute;
+        z-index: 500;
+        width: 286px;
+        height: 25px;
+        background: linear-gradient(90deg, #4180f6 0%, #f7c9f3 100%);
+        margin-top: -38px;
+        margin-left: 10px; }
+      .light .main .three #trending-container figure p {
+        color: white;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 5px;
+        margin-top: 4px; }
+
+.dark {
+  background-color: #110038; }
+  .dark * {
+    margin: 0;
+    padding: 0; }
+  .dark .bar {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); }
+  .dark .main .navbar .logo {
+    display: none; }
+  .dark .main .navbar .buttons .a, .dark .main .navbar .buttons .b {
+    background-color: #EE3EFE;
+    color: #FFFFFF; }
+  .dark .main .navbar .buttons .a {
+    left: 879px; }
+  .dark .main .navbar .buttons .b {
+    left: 1039px; }
+  .dark .main .navbar .buttons .c {
+    background-color: #EE3EFE;
+    color: #FFFFFF; }
+    .dark .main .navbar .buttons .c .theme {
+      background-color: #E6E6E6;
+      height: 102px;
+      width: 170px;
+      position: relative;
+      top: 20px;
+      left: -135px;
+      background: #B4B4B4;
+      box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+      z-index: 100;
+      display: none; }
+      .dark .main .navbar .buttons .c .theme .dropdown-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .dark .main .navbar .buttons .c .theme .dropdown-menu .day, .dark .main .navbar .buttons .c .theme .dropdown-menu .night {
+          font-family: "Chakra Petch", sans-serif;
+          text-decoration: none;
+          list-style-type: none;
+          color: #110038;
+          font-size: 16px;
+          height: 36px;
+          width: 150px;
+          background: #CCCCCC;
+          border: 1px solid #808080;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          margin-top: 8px; }
+          .dark .main .navbar .buttons .c .theme .dropdown-menu .day:hover, .dark .main .navbar .buttons .c .theme .dropdown-menu .night:hover {
+            background-color: #2E32FB;
+            color: #FFFFFF; }
+  .dark .main .navbar .buttons .misGuifos {
+    font-family: "Chakra Petch", sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: absolute;
+    top: 87px;
+    left: 1223.5px; }
+    .dark .main .navbar .buttons .misGuifos:hover {
+      border-style: dotted;
+      border-width: 1px; }
+    .dark .main .navbar .buttons .misGuifos:active {
+      opacity: 0.2; }
+    .dark .main .navbar .buttons .misGuifos span {
+      border-bottom: 1px solid #FFFFFF; }
+  .dark .main .one .searcher {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    height: 99px;
+    width: 1200px;
+    background-color: #B4B4B4;
+    box-shadow: 2px 2px 1px #B4B4B4;
+    z-index: 50; }
+    .dark .main .one .searcher .little-bar {
+      background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); }
+    .dark .main .one .searcher .text {
+      position: relative;
+      top: 10px;
+      left: 10px; }
+      .dark .main .one .searcher .text .search {
+        font-family: "Chakra Petch", sans-serif;
+        color: #B4B4B4;
+        height: 48px;
+        width: 1057px;
+        padding-left: 10px;
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+        .dark .main .one .searcher .text .search:focus {
+          color: black; }
+        .dark .main .one .searcher .text .search:focus ~ .suggestSearch {
+          visibility: visible; }
+      .dark .main .one .searcher .text .search-button {
+        position: relative;
+        top: 0px;
+        left: 5px;
+        height: 36px;
+        width: 102px;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 16px;
+        color: #8F8F8F;
+        z-index: 10;
+        background: #B4B4B4;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; }
+        .dark .main .one .searcher .text .search-button:hover {
+          cursor: pointer;
+          color: #FFFFFF;
+          background-color: #EE3EFE; }
+        .dark .main .one .searcher .text .search-button:active {
+          border-style: dotted;
+          border-width: 1px; }
+      .dark .main .one .searcher .text .suggestSearch {
+        width: 1202px;
+        height: 160px;
+        margin-top: 14px;
+        margin-left: -10px;
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden; }
+        .dark .main .one .searcher .text .suggestSearch .suggestion1, .dark .main .one .searcher .text .suggestSearch .suggestion2, .dark .main .one .searcher .text .suggestSearch .suggestion3 {
+          height: 36px;
+          width: 1057px;
+          background: #CCCCCC;
+          border: 1px solid #808080;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          margin-top: 12px;
+          margin-left: 15px;
+          text-decoration: none; }
+          .dark .main .one .searcher .text .suggestSearch .suggestion1 p, .dark .main .one .searcher .text .suggestSearch .suggestion2 p, .dark .main .one .searcher .text .suggestSearch .suggestion3 p {
+            color: #110038;
+            font-family: "Chakra Petch", sans-serif;
+            margin-left: 10px;
+            margin-top: 5px; }
+          .dark .main .one .searcher .text .suggestSearch .suggestion1:hover, .dark .main .one .searcher .text .suggestSearch .suggestion2:hover, .dark .main .one .searcher .text .suggestSearch .suggestion3:hover {
+            border-style: dotted;
+            border-width: 1px;
+            cursor: pointer;
+            background: #808080; }
+      .dark .main .one .searcher .text .hashtags {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: -150px;
+        margin-left: -20px;
+        visibility: hidden; }
+        .dark .main .one .searcher .text .hashtags .hashtag1, .dark .main .one .searcher .text .hashtags .hashtag2, .dark .main .one .searcher .text .hashtags .hashtag3 {
+          height: 34px;
+          background: #4180F6;
+          border: 1px solid #4C2F99;
+          box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+          margin-left: 10px; }
+          .dark .main .one .searcher .text .hashtags .hashtag1 p, .dark .main .one .searcher .text .hashtags .hashtag2 p, .dark .main .one .searcher .text .hashtags .hashtag3 p {
+            margin-left: 6px;
+            margin-top: 6px;
+            color: #FFFFFF;
+            font-family: "Chakra Petch", sans-serif;
+            font-size: 14px; }
+        .dark .main .one .searcher .text .hashtags .hashtag1 {
+          width: 100px; }
+        .dark .main .one .searcher .text .hashtags .hashtag2 {
+          width: 154px; }
+        .dark .main .one .searcher .text .hashtags .hashtag3 {
+          width: 140px; }
+  .dark .main .two .suggestion {
+    top: 302px; }
+  .dark .main .two .gifs {
+    position: relative;
+    top: 350px;
+    left: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 140px;
+    margin-left: 20px;
+    margin-bottom: 10px; }
+    .dark .main .two .gifs .gif1, .dark .main .two .gifs .gif2, .dark .main .two .gifs .gif3, .dark .main .two .gifs .gif4 {
+      background: #E6E6E6;
+      box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+      height: 313px;
+      width: 288px;
+      position: relative; }
+      .dark .main .two .gifs .gif1 .little-bar, .dark .main .two .gifs .gif2 .little-bar, .dark .main .two .gifs .gif3 .little-bar, .dark .main .two .gifs .gif4 .little-bar {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+        width: 280px; }
+        .dark .main .two .gifs .gif1 .little-bar .close, .dark .main .two .gifs .gif2 .little-bar .close, .dark .main .two .gifs .gif3 .little-bar .close, .dark .main .two .gifs .gif4 .little-bar .close {
+          margin-right: 5px; }
+      .dark .main .two .gifs .gif1 #hereisthegif1, .dark .main .two .gifs .gif1 #hereisthegif2, .dark .main .two .gifs .gif1 #hereisthegif3, .dark .main .two .gifs .gif1 #hereisthegif4, .dark .main .two .gifs .gif2 #hereisthegif1, .dark .main .two .gifs .gif2 #hereisthegif2, .dark .main .two .gifs .gif2 #hereisthegif3, .dark .main .two .gifs .gif2 #hereisthegif4, .dark .main .two .gifs .gif3 #hereisthegif1, .dark .main .two .gifs .gif3 #hereisthegif2, .dark .main .two .gifs .gif3 #hereisthegif3, .dark .main .two .gifs .gif3 #hereisthegif4, .dark .main .two .gifs .gif4 #hereisthegif1, .dark .main .two .gifs .gif4 #hereisthegif2, .dark .main .two .gifs .gif4 #hereisthegif3, .dark .main .two .gifs .gif4 #hereisthegif4 {
+        height: 280px;
+        width: 280px;
+        position: absolute;
+        top: 30px;
+        left: 5px; }
+        .dark .main .two .gifs .gif1 #hereisthegif1:hover, .dark .main .two .gifs .gif1 #hereisthegif2:hover, .dark .main .two .gifs .gif1 #hereisthegif3:hover, .dark .main .two .gifs .gif1 #hereisthegif4:hover, .dark .main .two .gifs .gif2 #hereisthegif1:hover, .dark .main .two .gifs .gif2 #hereisthegif2:hover, .dark .main .two .gifs .gif2 #hereisthegif3:hover, .dark .main .two .gifs .gif2 #hereisthegif4:hover, .dark .main .two .gifs .gif3 #hereisthegif1:hover, .dark .main .two .gifs .gif3 #hereisthegif2:hover, .dark .main .two .gifs .gif3 #hereisthegif3:hover, .dark .main .two .gifs .gif3 #hereisthegif4:hover, .dark .main .two .gifs .gif4 #hereisthegif1:hover, .dark .main .two .gifs .gif4 #hereisthegif2:hover, .dark .main .two .gifs .gif4 #hereisthegif3:hover, .dark .main .two .gifs .gif4 #hereisthegif4:hover {
+          border-style: dotted;
+          border-width: 1px; }
+      .dark .main .two .gifs .gif1 .watch-more1, .dark .main .two .gifs .gif1 .watch-more2, .dark .main .two .gifs .gif1 .watch-more3, .dark .main .two .gifs .gif1 .watch-more4, .dark .main .two .gifs .gif2 .watch-more1, .dark .main .two .gifs .gif2 .watch-more2, .dark .main .two .gifs .gif2 .watch-more3, .dark .main .two .gifs .gif2 .watch-more4, .dark .main .two .gifs .gif3 .watch-more1, .dark .main .two .gifs .gif3 .watch-more2, .dark .main .two .gifs .gif3 .watch-more3, .dark .main .two .gifs .gif3 .watch-more4, .dark .main .two .gifs .gif4 .watch-more1, .dark .main .two .gifs .gif4 .watch-more2, .dark .main .two .gifs .gif4 .watch-more3, .dark .main .two .gifs .gif4 .watch-more4 {
+        position: absolute;
+        width: 81px;
+        height: 34px;
+        font-family: 'Chakra Petch', sans-serif;
+        color: #FFFFFF;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+        margin-left: 15px;
+        margin-top: 235px;
+        z-index: 1000; }
+        .dark .main .two .gifs .gif1 .watch-more1:hover, .dark .main .two .gifs .gif1 .watch-more2:hover, .dark .main .two .gifs .gif1 .watch-more3:hover, .dark .main .two .gifs .gif1 .watch-more4:hover, .dark .main .two .gifs .gif2 .watch-more1:hover, .dark .main .two .gifs .gif2 .watch-more2:hover, .dark .main .two .gifs .gif2 .watch-more3:hover, .dark .main .two .gifs .gif2 .watch-more4:hover, .dark .main .two .gifs .gif3 .watch-more1:hover, .dark .main .two .gifs .gif3 .watch-more2:hover, .dark .main .two .gifs .gif3 .watch-more3:hover, .dark .main .two .gifs .gif3 .watch-more4:hover, .dark .main .two .gifs .gif4 .watch-more1:hover, .dark .main .two .gifs .gif4 .watch-more2:hover, .dark .main .two .gifs .gif4 .watch-more3:hover, .dark .main .two .gifs .gif4 .watch-more4:hover {
+          cursor: pointer; }
+  .dark .main .three {
+    position: relative; }
+    .dark .main .three .trendings {
+      top: 400px; }
+    .dark .main .three #trending-container {
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      top: 450px;
+      margin-left: 92px; }
+      .dark .main .three #trending-container figure {
+        position: relative;
+        z-index: 100; }
+        .dark .main .three #trending-container figure img:hover {
+          border-style: dotted;
+          border-width: 1px; }
+        .dark .main .three #trending-container figure img:hover ~ figcaption {
+          position: absolute;
+          z-index: 500;
+          width: 286px;
+          height: 25px;
+          background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+          margin-top: -38px;
+          margin-left: 10px; }
+        .dark .main .three #trending-container figure p {
+          color: #110038;
+          font-family: "Chakra Petch", sans-serif;
+          font-size: 14px;
+          font-weight: bold;
+          margin-left: 5px;
+          margin-top: 4px; }
+
+.light .nav .nav-container .logo-dark {
+  display: none; }
+.light .main-window {
+  height: 386px;
+  width: 684px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  position: absolute;
+  top: 198px;
+  left: 378px; }
+  .light .main-window .little-bar {
+    width: 678px; }
+  .light .main-window .background {
+    position: relative;
+    height: 362px;
+    width: 684px; }
+    .light .main-window .background .info-title {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 20px;
+      color: #110038;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 16px; }
+      .light .main-window .background .info-title .img-info {
+        padding: 0px 10px; }
+    .light .main-window .background .text {
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 14px;
+      margin-left: 70px; }
+    .light .main-window .background .two-buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      position: absolute;
+      bottom: 100px;
+      width: 35vw;
+      height: 50px; }
+      .light .main-window .background .two-buttons .button-cancelar {
+        right: -10px; }
+      .light .main-window .background .two-buttons .button-comenzar {
+        background-color: #FFF4FD;
+        right: -170px; }
+
+.dark {
+  background-color: #110038; }
+  .dark .nav .nav-container .logo {
+    display: none; }
+  .dark .main-window {
+    height: 386px;
+    width: 684px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    position: absolute;
+    top: 198px;
+    left: 378px; }
+    .dark .main-window .little-bar {
+      background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+      width: 678px; }
+    .dark .main-window .background {
+      position: relative;
+      height: 362px;
+      width: 684px; }
+      .dark .main-window .background .info-title {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 20px;
+        color: #110038;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 16px; }
+        .dark .main-window .background .info-title .img-info {
+          padding: 0px 10px; }
+      .dark .main-window .background .text {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 14px;
+        margin-left: 70px; }
+      .dark .main-window .background .two-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        position: absolute;
+        bottom: 100px;
+        width: 35vw;
+        height: 50px; }
+        .dark .main-window .background .two-buttons .button-cancelar {
+          right: -10px; }
+        .dark .main-window .background .two-buttons .button-comenzar {
+          background-color: #FFF4FD;
+          right: -170px; }
+
+.window {
+  top: 208px;
+  left: 265px;
+  height: 548px;
+  width: 860px;
+  position: relative;
+  top: 50px;
+  left: 265px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+  .window .little-bar {
+    margin-left: 0;
+    width: 858px; }
+  .window .background-window {
+    position: relative;
+    background: #E6E6E6;
+    height: 524px;
+    width: 832px; }
+    .window .background-window .video-recording {
+      position: absolute;
+      top: 5px;
+      left: 8px;
+      height: 434px;
+      width: 840px;
+      background-color: white;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+      z-index: 100; }
+    .window .background-window .video-recording2 {
+      height: 434px;
+      width: 500px;
+      margin-left: 180px; }
+    .window .background-window .white-background {
+      position: absolute;
+      top: 5px;
+      left: 8px;
+      height: 434px;
+      width: 840px;
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      display: none; }
+      .window .background-window .white-background img {
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        width: 40px;
+        height: 48px; }
+      .window .background-window .white-background .p1, .window .background-window .white-background .p2 {
+        padding: 15px; }
+      .window .background-window .white-background .p1 {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #110038;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        margin-top: 150px; }
+      .window .background-window .white-background .p2 {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 12px;
+        color: rgba(17, 0, 56, 0.64);
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 14px; }
+    .window .background-window .pink-buttons {
+      position: absolute;
+      bottom: 140px;
+      right: 180px; }
+      .window .background-window .pink-buttons .camera-button {
+        width: 36px; }
+      .window .background-window .pink-buttons .capture-button {
+        left: 35px;
+        font-size: 16px; }
+    .window .background-window .red-buttons {
+      position: absolute;
+      bottom: 140px;
+      right: 180px;
+      display: none; }
+      .window .background-window .red-buttons .recording-button {
+        width: 36px;
+        background-color: #FF6161; }
+      .window .background-window .red-buttons .stop-button {
+        left: 35px;
+        color: #FFFFFF;
+        background-color: #FF6161;
+        font-size: 16px; }
+    .window .background-window .other-buttons {
+      position: absolute;
+      bottom: 90px;
+      width: 35vw;
+      height: 50px;
+      display: none; }
+      .window .background-window .other-buttons .repeat-button {
+        right: -250px; }
+      .window .background-window .other-buttons .upload-button {
+        background-color: #FFF4FD;
+        right: -430px; }
+      .window .background-window .other-buttons .cancel-button {
+        background-color: #FFF4FD;
+        right: -430px; }
+
+.gif-uploaded {
+  width: 721px;
+  height: 391px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  position: relative;
+  top: 90px;
+  left: 300px;
+  display: none; }
+  .gif-uploaded .background .idk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 430px; }
+    .gif-uploaded .background .idk label {
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      color: #110038;
+      letter-spacing: 0;
+      line-height: 22px;
+      margin-top: 70px; }
+    .gif-uploaded .background .idk .copyURL, .gif-uploaded .background .idk .download {
+      width: 256px;
+      height: 36px;
+      background: #FFF4FD;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+      font-family: "Chakra Petch", sans-serif;
+      color: #110038;
+      margin-top: 10px; }
+      .gif-uploaded .background .idk .copyURL:hover, .gif-uploaded .background .idk .download:hover {
+        cursor: pointer;
+        background: #e6bbe2;
+        border-style: dotted;
+        border-width: 1px; }
+  .gif-uploaded .background #little-gif {
+    width: 365px;
+    height: 191px;
+    background-color: white;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    margin-left: 30px;
+    margin-top: -150px; }
+  .gif-uploaded .background .ready {
+    position: absolute;
+    top: 320px;
+    left: 540px; }
+
+.Guifos #guifos-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 950px;
+  margin-left: 92px; }
+  .Guifos #guifos-container img:hover {
+    border-style: dotted;
+    border-width: 1px; }
+
+/*# sourceMappingURL=style.css.map */

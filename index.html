@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>gif.OS</title>
+</head>
+<body class="light">
+    <header class="bar">
+        <p>¡Bienvenidos/as a Guifos.com! ------Donde los gifs están.////// Número de visitas: 12.785.803</p>
+    </header>
+    <main class="main">
+        <nav class="navbar">
+            <a href="index.html"><img src="./Assets/logo-light.png" alt="Logo" class="logo"></a>
+            <a href="index.html"><img src="./assets/logo-dark.png" alt="Logo" class="logo-dark"></a>
+            <div class="buttons">
+                <a href="gif-creation.html"><button class="a">Crear Guifos</button></a>
+                <button class="b">Elegir Tema</button>
+                <button class="c" id="c-button">
+                    <img src="./Assets/dropdown.svg" alt="down arrow">
+                    <div id="change-theme" class="theme">
+                        <div class="dropdown-menu">
+                            <a href="#" class="day">Saylor Day</a>
+                            <a href="#" class="night">Saylor Night</a>
+                        </div>
+                    </div>
+                </button>
+                <a href="./gif-upload.html" class="misGuifos"><span>M</span>is Guifos</a>
+            </div>
+        </nav>
+        <section class="one">
+            <div class="searcher">
+                <div class="little-bar"><p>Buscar</p></div>
+                <div class="text">
+                    <input type="text" placeholder="Busca gifs, hashtags, temas, busca lo que quieras..." class="search" id="mySearch">
+                    <button class="search-button" id="searchButton"><img src="./assets/lupa_inactive.svg" alt="loupe"> Buscar</button>
+                    <div class="suggestSearch">
+                        <a href="" class="suggestion1"><p>Messi</p></a>
+                        <a href="" class="suggestion2"><p>BTS</p></a>
+                        <a href="" class="suggestion3"><p>Game of Thrones</p></a>
+                    </div>
+                    <div class="hashtags">
+                        <div class="hashtag1"><p>#UnEjemplo</p></div>
+                        <div class="hashtag2"><p>#UnEjemploMásLargo</p></div>
+                        <div class="hashtag3"><p>#TagsRelacionados</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="two">
+            <div class="suggestion">
+                <p>Hoy te sugerimos:</p>
+            </div>
+            <div class="gifs">
+                <div class="gif1">
+                    <div class="little-bar"><p>#Simpsons</p><img src="./Assets/button3.svg" alt="cruz" class="close"></div>
+                    <img id="hereisthegif1" src="https://i.giphy.com/media/17mNCcKU1mJlrbXodo/giphy.webp" alt="Gif random">
+                    <button class="watch-more1" >Ver más...</button>
+                </div>
+                <div class="gif2">
+                    <div class="little-bar"><p>#HarryPotter</p><img src="./Assets/button3.svg" alt="cruz" class="close"></div>
+                    <img id="hereisthegif2" src="https://i.giphy.com/media/17mNCcKU1mJlrbXodo/giphy.webp" alt="Gif random">
+                    <button class="watch-more2" >Ver más...</button>
+                </div>
+                <div class="gif3">
+                    <div class="little-bar"><p>#RickAndMorty</p><img src="./Assets/button3.svg" alt="cruz" class="close"></div>
+                    <img id="hereisthegif3" src="https://i.giphy.com/media/17mNCcKU1mJlrbXodo/giphy.webp" alt="Gif random">
+                    <button class="watch-more3" >Ver más...</button>
+                </div>
+                <div class="gif4">
+                    <div class="little-bar"><p>#Friends</p><img src="./Assets/button3.svg" alt="cruz" class="close"></div>
+                    <img id="hereisthegif4" src="https://i.giphy.com/media/17mNCcKU1mJlrbXodo/giphy.webp" alt="Gif random">
+                    <button class="watch-more4" >Ver más...</button>
+                </div>
+            </div>
+        </section>
+        <section class="three">
+            <div class="trendings">
+                <p id="tt">Tendencias:</p>
+            </div>
+            <div id="trending-container"></div>
+        </section>
+    </main>
+    <script src="./javascript/home-events.js"></script>
+    <script src="./javascript/api-functions.js"></script>
+</body>
+</html>

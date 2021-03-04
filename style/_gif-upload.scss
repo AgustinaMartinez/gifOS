@@ -1,0 +1,242 @@
+.nav{
+    @extend %nav;
+}
+
+.window{
+    top: 208px;
+    left: 265px;
+    height: 548px;
+    width: 860px;
+    position: relative;
+    top: 50px;
+    left: 265px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+
+    .little-bar{
+        @extend %little-bar;
+        margin-left: 0;
+        width: 858px;
+    }
+
+    .background-window{
+        position: relative;
+        background: #E6E6E6;
+        height: 524px;
+        width: 832px;
+        
+        .video-recording{
+            position: absolute;
+            top: 5px;
+            left: 8px;
+            height: 434px;
+            width: 840px;
+            background-color: white;
+            box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+            z-index: 100; 
+        }
+
+        .video-recording2{
+            height: 434px;
+            width: 500px;
+            margin-left: 180px;
+        }
+
+        .white-background{
+            position: absolute;
+            top: 5px;
+            left: 8px;
+            height: 434px;
+            width: 840px;
+            background: #FFFFFF;
+            border: 1px solid #979797;
+            box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            display: none;
+
+            img{
+                position: absolute;
+                top: 100px;
+                left: 400px;
+                width: 40px;
+                height: 48px;
+            }
+
+            .p1, .p2{
+                padding: 15px;
+            }
+
+            .p1{
+                font-family: $font;
+                font-size: 16px;
+                font-weight: bold;
+                color: #110038;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 22px;
+                margin-top: 150px;
+            }
+
+            .p2{
+                font-family: $font;
+                font-size: 12px;
+                color: rgba(17,0,56,0.64);
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 14px;
+            }
+        }
+
+        .pink-buttons{
+            position: absolute;
+            bottom: 140px;
+            right: 180px;
+
+            .camera-button{
+                @extend %button-ab;
+                width: 36px;
+            }
+            .capture-button{
+                @extend %button-ab;
+                left: 35px;
+                font-size: 16px;
+            }
+        }
+
+        .red-buttons{
+            position: absolute;
+            bottom: 140px;
+            right: 180px;
+            display: none;
+
+            .recording-button{
+                @extend %button-ab;
+                width: 36px;
+                background-color: #FF6161;
+            }
+
+            .stop-button{
+                @extend %button-ab;
+                left: 35px;
+                color:#FFFFFF;
+                background-color: #FF6161;
+                font-size: 16px;
+            }
+        }
+
+        .other-buttons{
+            position: absolute;
+            bottom: 90px;
+            width: 35vw;
+            height: 50px;
+            display: none;
+
+            .repeat-button{
+                @extend %button-ab;
+                right: -250px;
+            }
+
+            .upload-button{
+                @extend %button-ab;
+                background-color: #FFF4FD;
+                right: -430px;
+            }
+
+            .cancel-button{
+                @extend %button-ab;
+                background-color: #FFF4FD;
+                right: -430px;
+            }
+        }
+    }
+}
+
+.gif-uploaded{
+    width: 721px;
+    height: 391px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    position: relative;
+    top: 90px;
+    left: 300px;
+    display: none;
+
+    .little-bar{
+        @extend %little-bar;  
+    }
+
+    .background{
+       
+        .idk{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 430px;
+
+            label{
+                font-family: $font;
+                font-size: 16px;
+                font-weight: bold;
+                color: #110038;
+                letter-spacing: 0;
+                line-height: 22px;
+                margin-top: 70px;
+            }
+
+            .copyURL, .download{
+                width: 256px;
+                height: 36px;
+                background: #FFF4FD;
+                border: 1px solid #110038;
+                box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                font-family: $font;
+                color: #110038;
+                margin-top: 10px;
+
+                &:hover{
+                    cursor: pointer;
+                    background: #e6bbe2;
+                    border-style: dotted; border-width: 1px;
+                }
+            }
+        }
+
+        #little-gif{
+            width: 365px;
+            height: 191px;
+            background-color: white;
+            box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+            margin-left: 30px;
+            margin-top: -150px;
+        }
+
+        .ready{
+            @extend %button-ab;
+            position: absolute;
+            top: 320px;
+            left: 540px;
+        }
+    }
+}
+
+.Guifos{
+    .mis-Guifos{
+        @extend %rectangle-container;
+    }
+
+    #guifos-container{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 950px;
+        margin-left: 92px;
+        
+
+        img:hover{
+            border-style: dotted; border-width: 1px;
+        }
+    }
+}
